@@ -1,0 +1,136 @@
+:root{
+    /* CSS HEX */
+--white: #FFFFFFff;
+--selective-yellow: #FEB827ff;
+--azul: #006AB7ff;
+
+/* CSS HSL */
+--white: hsla(0, 0%, 100%, 1);
+--selective-yellow: hsla(40, 99%, 57%, 1);
+--azul: hsla(205, 100%, 36%, 1);
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    gap: 1rem;
+    display: flex;
+    margin: 0;
+    font-family: 'Poppins';
+    max-width: 1024px;
+    background-color: var(--azul);
+    flex-direction: column;
+}
+main {
+    height:fit-content;
+    display: flex;
+    flex-wrap: nowrap;    
+}
+.table-icon{
+    width: 50%;
+    height: 50%;
+}
+header{
+    display: flex;    
+}
+.header-container {
+    display: flex;
+    width: calc(100% - 1rem);
+    border: solid black 2px;
+    border-radius: 16px;    
+    margin: 0 auto;
+    background-color: var(--white);
+}
+.container {
+    border: solid black 2px;
+    border-radius: 16px;
+    display: flex;
+    background-color: var(--white);
+    max-height: fit-content;
+    margin: 0 auto;
+    width: calc(90% - 1rem);
+    height: 37rem;
+    background-color: var(--white);
+}
+.footer-container {
+    display: flex;
+    width: calc(100% - 1rem);
+    border: solid black 2px;
+    border-radius: 16px;    
+    margin: 0 auto;
+    background-color: var(--white);
+}
+.header-item {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+h1 {
+    color: var(--selective-yellow);
+}
+.card-container {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+.card-item {
+    height: 10rem;
+    border-radius: 1rem;
+    padding: 0.75rem;
+    position: relative;
+    
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.nav-container {
+    width: calc(10% - 1rem);
+    display: flex;    
+    border: solid black 2px;
+    border-radius: 16px;
+    box-shadow: 20px 0px 0px 0px #006AB7ff;
+    margin: 0 auto;
+    background-color: var(--white);
+}
+.image {
+    width: auto;
+    max-height: 68%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Arsenal{
+    /*background-image: url("assets/Arsenal_FC.svg.png");
+    background-size: 100%;*/
+}
+.Aston-villa{
+    /*background-image: url("assets/all\ new\ aston\ villa\ logo\ \(2\).png");
+    background-size: 100%;*/
+}
+.Man-city{
+    /*background-image: url("assets/Manchester_City_FC_badge.svg.png");
+    background-size: 100%;*/
+}
+.Brighton{
+    /*background-image: url("assets/nedladdning.png");
+    background-size: 100%;*/
+}
+.Newcastle{
+    /*background-image: url("assets/Newcastle_United_Logo.svg.png");
+    background-size: 100%;*/
+}
+.Watford{
+    /*background-image: url("assets/nedladdning\ \(1\).png");
+    background-size: 100%;*/
+}
+.Chelsea{
+    /*background-image: url("assets/Chelsea_FC.svg.png");
+    background-size: 100%;*/
+}

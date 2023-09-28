@@ -2,32 +2,32 @@
 __DIR__. require 'data.php';
 ?>
 <!-- build an html table out of the data in the array -->
-<table>
-    <th>
-        <tr>
-            <th>Teams</th>
-            <?php foreach ($teams as $key => $value) :?>
-                <th><a href="<?=$value['url']?>"><?= $key?></a></th>
-            <?php endforeach?>
+<table border="2px solid black">
+    <thead>
+        <tr><th>TEAMS</th><?php
+            foreach ( $teams as $key => $value):?>
+            <th><?= $key?></th>
+            <?php endforeach;?>
         </tr>
-    </th>
-    <tr>
-        <td>League</td>
-        <?php foreach ($teams as $key => $value) :?>
-            <td><?= $value['league']?></td> 
-        <?php endforeach?>             
+    </thead>
+    <tr><th>LEAGUE</th><?php
+        foreach ( $teams as $key => $value):?>
+        <td><?= $value['league']?></td>
+        <?php endforeach;?>
     </tr>
-    <tr>
-        <td>Last Time Champions</td>
-        <?php foreach ($teams as $key => $value) :?>
-            <td><?php if ($value['last-time-champions'] === null){
-                echo "N/A";} else {echo $value['last-time-champions'];} ?></td> 
-        <?php endforeach?>             
+    <tr><th>Last time champion</th><?php
+        foreach ( $teams as $key => $value):?>
+        <td><?php if ($value['last-time-champions'] !== null) echo $value['last-time-champions']; else echo "N/A"?></td>
+        <?php endforeach;?>
     </tr>
-    <tr>
-        <td>City</td>
-        <?php foreach ($teams as $key => $value) :?>
-            <td><?= $value['city']?></td> 
-        <?php endforeach?>             
+    <tr><tr><th>ORIGIN</th><?php
+        foreach ( $teams as $key => $value):?>
+        <td><?= $value['city']?></td>
+        <?php endforeach;?>
+    </tr>
+    <tr><th>WEBSITE</th><?php
+        foreach ( $teams as $key => $value):?>
+        <td><a href="<?= $value['url']?>"><?= $value['url']?></a></td>
+        <?php endforeach;?>
     </tr>
 </table>
