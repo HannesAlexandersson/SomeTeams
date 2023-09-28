@@ -71,7 +71,7 @@ header{
     flex-direction: row-reverse;
     align-items: center;
 }
-h1 {
+h1 p{
     color: var(--selective-yellow);
 }
 .card-container {
@@ -83,12 +83,12 @@ h1 {
     justify-content: space-around;
 }
 .card-item {
+    border: 4px solid var(--selective-yellow);
     height: 10rem;
     border-radius: 1rem;
     padding: 0.75rem;
-    position: relative;
-    
-    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;    
+    box-shadow: 11px 9px 4px rgba(0, 0, 0, 0.1);
 }
 .nav-container {
     width: calc(10% - 1rem);

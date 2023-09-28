@@ -4,7 +4,7 @@
             <h1>Some Teams!</h1>
         </div>
         <div class="header-item">
-            <img src="assets/IFK_G__teborg-logo-8D59969B80-seeklogo.com.png" style="width: 20%;"/>
+            <img src="assets/blowitt.svg" style="width: 20%;"/>
         </div>
     </div>
  </header>
