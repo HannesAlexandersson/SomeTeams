@@ -22,8 +22,8 @@ roadmap: build the external files
         - the file building the table
         - the files that was required to do certain things
 
-        when I have all the different components, start building the actuall website, 
+when I have all the different components, start building the actuall website, 
             - start in simple html and css and make a layout. 
 
-Problems: 
+##Problems: 
 The first problem I ran into was when building the structures for a html table with the data from the provided array. I was trying to make an foreach loop to loop the array, but in some cases there was no data, or it was null rather. So i figured I needed an If statement in the loop, but the program wouldnt let me. I spent hours trying to find answers to this problem and it turned out it was a simple syntax error! in other words my logic was correct but my syntax knowledge was lacking!
