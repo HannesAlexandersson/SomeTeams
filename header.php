@@ -1,7 +1,7 @@
  <header>
     <div class="header-container">
         <div class="header-item">
-            <img class="ha" src="assets/HA.svg" alt="Logtype">
+            <img class="ha" src="assets/hayellow.svg" alt="Logtype">
         </div>
         <div class="header-item">
             <img src="assets/presents.svg" class="present">
