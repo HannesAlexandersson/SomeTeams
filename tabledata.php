@@ -40,5 +40,5 @@
             </div>            
         </div>
     </main>
-    <?php __DIR__. require 'navbar.php';?>
+<?php __DIR__. require 'navbar.php';?>
 <?php __DIR__.require 'footer.php';?>
