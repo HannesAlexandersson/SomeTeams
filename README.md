@@ -1,6 +1,6 @@
 # SomeTeams
 WU23 assignment under PHP education
-###start of the project
+### start of the project
 started the project off by using the newly aquired tool of notion.so to plan out the project. 
 So today the 27/9 I began by inputting all of  the requirements in notion. I planned out the steppes I needed to take to complete the project and a rough time estimate. 
 
@@ -17,10 +17,16 @@ https://www.youtube.com/watch?v=Q-Qtdpr-_Ds&ab_channel=Chidre%27sTechTutorials
 https://www.youtube.com/watch?v=FDk8eXvA9yk&ab_channel=DigitalFox
 https://www.youtube.com/watch?v=biI9OFH6Nmg&ab_channel=dcode
 
-roadmap: build the external files
+roadmap: build the external files:
         - the file holding the data
         - the file building the table
         - the files that was required to do certain things
+        - make a logic file for functions and other stuff to be called upon if needed
+        Build the "internal" files: 
+        - The head
+        - The header
+        - Made the navbar an internal file becouse why not?
+        - The footer
 
 when I have all the different components, start building the actuall website, 
             - start in simple html and css and make a layout. 
@@ -43,3 +49,19 @@ for the layout I opted for an basic flex-card solution.
 The first problem I ran into was when building the structures for a html table with the data from the provided array. I was trying to make an foreach loop to loop the array, but in some cases there was no data, or it was null rather. So i figured I needed an If statement in the loop, but the program wouldnt let me. I spent hours trying to find answers to this problem and it turned out it was a simple syntax error! in other words my logic was correct but my syntax knowledge was lacking!
 
 Second problem: I couldnt get the flexbox to behave as I wished. in the end i got it to work, but it didnt end up as my original skissed had mapped it out to be. It seems to me that now i might have a flex container or two too much then I perhaps need. But the css is at this stage I bit overhelming so Im scared to dive in to it to try and sort it out so I better keep it at it is for the moment and instead take this lesson to heart and remembe it in the future for stuff not to do!
+
+Other than that I havent really come upon any real issues. Ive mostly been makin little cosmetic changes here and there and fightning with filezilla a bit. 
+
+
+## Pseudo & Charting
+
+Dont know if its necessary with pseudo code when coding html and css but anyways: 
+
+                                                                Homepage((index.php) is calling 5 other files)
+                                                                        |
+                                                                        |
+                  About(calling 4 other files incl.header & footer)<----------> Statistics(calling 3 other files incl.header & footer)
+                                |
+                                |
+                        Hidden page(calling 3 other files incl.header & footer)
+
