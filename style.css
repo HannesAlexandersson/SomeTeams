@@ -183,25 +183,26 @@ h1 {
     justify-content: center;
 }
 table {
+    height: 20rem;
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
     border: 3px solid var(--selective-yellow);
-    font-family: 'Rock Salt', 'Bebas Neue';
+    font-family: 'Bebas Neue';
     background-color: var(--white);
-    border-radius: 16px; 
-  }
+    border-radius: 16px;
+}
 .table-container {
     display: flex;
-    gap:2rem;
+    gap: 2rem;
     flex-direction: column;
-    align-content: space-around;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .table-item {
+    height: 20%;
     display: flex;
-    width: 90%;
+    width: 95%;
     justify-content: center;
 }
 .city-container {
