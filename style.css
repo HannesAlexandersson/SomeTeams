@@ -15,11 +15,20 @@
 * {
     box-sizing: border-box;
 }
-  
+a:link, a:visited {
+    text-decoration: none;
+    color:var(--selective-yellow);
+}
+a:hover {
+    text-decoration: underline;
+}  
+a:active {
+    text-decoration: underline;
+}  
 body {
     gap: 1rem;
     display: flex;
-    margin: 0;
+    margin: auto;
     font-family: 'Poppins';
     max-width: 1024px;
     background-color: var(--azul);
@@ -71,7 +80,7 @@ header{
     flex-direction: row-reverse;
     align-items: center;
 }
-h1 p{
+h1 {
     color: var(--selective-yellow);
 }
 .card-container {
@@ -89,6 +98,13 @@ h1 p{
     padding: 0.75rem;
     position: relative;    
     box-shadow: 11px 9px 4px rgba(0, 0, 0, 0.1);
+}
+.card-item:link, :visited{
+    text-decoration: none;
+    color:var(--selective-yellow);
+}
+.card-item:hover{        
+    transform: scale(1.2);   
 }
 .nav-container {
     width: calc(10% - 1rem);
