@@ -4,4 +4,6 @@
 
 <?php __DIR__. require 'main.php';?>
 
+<?php __DIR__. require 'navbar.php';?>
+
 <?php __DIR__. require 'footer.php';?>

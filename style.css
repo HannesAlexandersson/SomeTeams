@@ -39,6 +39,7 @@ a:hover {
 a:active {
     text-decoration: underline;
 }  
+
 body {
     gap: 1rem;
     display: flex;
@@ -102,8 +103,15 @@ main {
     justify-content: flex-start;
     align-items: center;
 }
+p{
+    color: var(--selective-yellow);
+    font-family: 'Bebas Neue';
+}
 h1 {
     color: var(--selective-yellow);
+}
+.about > p{ 
+    margin-left:1rem;
 }
 .card-container {
     display: flex;
@@ -129,6 +137,8 @@ h1 {
     transform: scale(1.2);   
 }
 .nav-container {
+    top: 7rem;
+    left: -7px;
     padding-top: 10px;
     position: fixed;
     overflow: hidden;
@@ -162,4 +172,46 @@ h1 {
     left: 1rem;
     position: relative;
      width: 2rem;   
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid var(--selective-yellow);
+    font-family: 'Rock Salt', 'Bebas Neue';
+    background-color: var(--white);
+    border-radius: 16px; 
+  }
+.table-container {
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+.table-item {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.city-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.city-item{
+    margin-left: 1rem;
+    color: var(--selective-yellow);
 }
