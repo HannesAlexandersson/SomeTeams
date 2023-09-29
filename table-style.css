@@ -1,0 +1,63 @@
+:root{
+    /* CSS HEX */
+--white: #FFFFFFff;
+--selective-yellow: #FEB827ff;
+--azul: #006AB7ff;
+
+/* CSS HSL */
+--white: hsla(0, 0%, 100%, 1);
+--selective-yellow: hsla(40, 99%, 57%, 1);
+--azul: hsla(205, 100%, 36%, 1);
+
+
+}
+body {
+    gap: 1rem;
+    display: flex;
+    margin: auto;
+    font-family: 'Poppins';
+    max-width: 1024px;
+    background-color: var(--azul);
+    flex-direction: column;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid var(--selective-yellow);
+    font-family: "Rock Salt", cursive;
+    background-color: var(--white);
+    border-radius: 16px; 
+  }
+.header-container,.main-container{
+    display: flex;
+    width: calc(100% - 1rem);
+    border: 3px solid var(--selective-yellow);
+    border-radius: 16px;    
+    margin: 0 auto;
+    background-color: var(--white);
+}
+.nav-container{
+    position: sticky;
+    display: flex;
+    width: calc(10% - 1rem);
+    max-height: 900px;
+}
+.main-container {
+    height: 35rem;
+}
+.header-item {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.footer-container {
+    display: flex;
+    width: calc(100% - 1rem);
+    border: 3px solid var(--selective-yellow);
+    border-radius: 16px;    
+    margin: 0 auto;
+    background-color: var(--white);
+}

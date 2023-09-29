@@ -1,0 +1,4 @@
+<div class="about">
+    <img src="assets/loremIpsumbaby.png"/>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt diam non purus tempus lacinia. In a odio ullamcorper massa eleifend vehicula at nec nunc. Fusce quis est eu mi laoreet pellentesque sit amet nec metus. Vestibulum lobortis feugiat rutrum. Sed porttitor, purus sit amet ornare dictum, magna massa semper quam, scelerisque mattis magna felis ut tortor. Vestibulum tincidunt id leo vel tincidunt. Ut vehicula ligula ut eros lobortis, vel ultrices eros posuere. Aliquam pretium eros nec accumsan aliquam. Nulla lorem elit, facilisis a urna ac, mollis venenatis dolor. Praesent ante quam, commodo eu ultrices ac, lobortis non felis. Cras vel cursus urna. Morbi dignissim tempus laoreet. Proin maximus velit et orci ultricies accumsan.</p>
+</div>
