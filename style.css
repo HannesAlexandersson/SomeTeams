@@ -17,10 +17,10 @@
     color:var(--selective-yellow);
 }
 .ha {
-    width: 6rem;    
+    width: 80%;
 }
 .seven {
-    width: 6rem;
+    width: 80%;
 }
 .blowit{
     width: 100%;
@@ -39,7 +39,9 @@ a:hover {
 a:active {
     text-decoration: underline;
 }  
-
+header{
+    width: 100%;
+}
 body {    
     gap: 1rem;
     display: flex;
@@ -51,7 +53,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+footer{
+    width: 100%;
+}
 main {
+    width: 100%;
     height: auto;
     display: flex;
 }
@@ -263,3 +269,7 @@ table {
     flex-wrap: wrap;
     justify-content: center;
 }
+@media (min-width: 560px) {
+    .main-container {
+      columns: 1;
+    }}
