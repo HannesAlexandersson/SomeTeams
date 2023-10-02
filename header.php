@@ -13,7 +13,7 @@
             <p class="hidden">And the one team of me -></p>
         </div>
         <div class="header-item">
-            <a href="https://anglarna.se/"><img class="blowit" src="assets/blowitt.svg" style="width: 100%;"></a>
+            <a href="https://anglarna.se/"><img class="blowit" src="assets/blowitt.svg"></a>
         </div>
     </div>
  </header> 

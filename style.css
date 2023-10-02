@@ -23,7 +23,7 @@
     width: 80%;
 }
 .blowit{
-    width: 100%;
+    width: 81%;
 }
 
 * {
@@ -39,11 +39,8 @@ a:hover {
 a:active {
     text-decoration: underline;
 }  
-header{
-    width: 100%;
-}
 body {    
-    gap: 1rem;
+    gap: 3rem;
     display: flex;
     margin: auto;
     font-family: 'Poppins';
@@ -62,13 +59,18 @@ main {
     display: flex;
 }
 .table-icon {
-    width: 27%;
-    height: 65%;
+    padding-left: 4px;
+    width: 16%;
+    height: 30%;
     display: inline;
 }
+.nav-p{
+    font-size: 18px;
+    padding-left:9px;
+}
 .header-container {
-    gap: 1rem;
-    height: 10%;
+    /* gap: 1rem; */
+    /* height: 10%; */
     display: flex;
     width: 100%;
     border: solid black 2px;
@@ -77,8 +79,8 @@ main {
     background-color: var(--white);
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 .container {
     border: solid black 2px;
@@ -101,8 +103,10 @@ main {
     justify-content: space-around;
 }
 .header-item {
+    margin-left: 1px;
+    margin-bottom: 5px;
     display: flex;
-    width: 11%;
+    width: 16%;
     /* padding-left: 1rem; */
     flex-wrap: wrap;
     flex-direction: row;
@@ -147,27 +151,32 @@ h1 {
     transform: scale(1.2);   
 }
 .nav-container {
-    padding-left: 4px;
-    top: 7rem;
-    left: -7px;
+    height: 10%;
+    width: 97%;
+    padding-left: 3px;
+    top: 0rem;
+    left: 3px;
     padding-top: 10px;
-    position: fixed;    
-    width: calc(10% - 1rem);
+    position: fixed;
+    /* width: calc(10% - 1rem); */
     display: flex;
-    border: solid black 2px;
+    /* border: solid black 2px; */
     border-radius: 16px;
-    margin: 10px;
+    /* margin: 10px
+px
+; */
     background-color: var(--white);
 }
 .nav-item {
-    width: 70%;
+    /* width: 70%; */
     gap: 0.2rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .nav-sideway-box {
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-around;
@@ -176,6 +185,15 @@ h1 {
 .image {
     padding-bottom: 5px;
     width: auto;
+    max-height: 68%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brighton-image {
+    margin-bottom: 1px;
+    padding-bottom: 14px;
+    width: 66px;
     max-height: 68%;
     display: block;
     margin-left: auto;
@@ -233,6 +251,7 @@ table {
     color: var(--selective-yellow);
 }
 .card-container-top {
+    gap: 1rem;
     width: 674px;
     display: flex;
     flex-direction: row;
@@ -240,7 +259,8 @@ table {
     justify-content: space-evenly;
     align-items: center;
 }
-.card-container-mid{
+.card-container-mid {
+    gap: 1rem;
     width: 674px;
     display: flex;
     flex-direction: row;

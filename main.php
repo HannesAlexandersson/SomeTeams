@@ -26,7 +26,7 @@
                 </div></a>
                 <a href="https://www.brightonandhovealbion.com/"><div class="card-item Watford">
                     <p>Brighton & Hove Albion Football Club</p>
-                    <img class="image" src="assets/brighton.png"/>
+                    <img class="brighton-image" src="assets/brighton.png"/>
                 </div></a>
             </div>
             <div class="card-container-low">              
