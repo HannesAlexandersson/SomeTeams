@@ -10,7 +10,7 @@
             <img class="seven" src="assets/teamsOfHans.svg" alt="formated 7">
         </div>
         <div class="header-item">
-            <p class="hidden">And the one team of me -></p>
+            <p class="hidden">And My Team -></p>
         </div>
         <div class="header-item">
             <a href="https://anglarna.se/"><img class="blowit" src="assets/blowitt.svg"></a>
