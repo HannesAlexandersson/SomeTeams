@@ -20,7 +20,7 @@ foreach ($teams as $key => $value) {?>
     }
 }?>
 </table>
-*/?>
+?>
 <table border="1">
     <thead>
         <tr>
@@ -59,3 +59,4 @@ foreach ($teams as $key => $value) {?>
         <?php endforeach; ?>
     </tbody>
 </table>
+*/
