@@ -9,9 +9,9 @@ __DIR__ . require 'citydata.php'; ?>
             <p>In the array there are 7 teams from 5 different citys</p>
             <p>The different citys are:</p>
             </div>
-            <div class="city-box"><?php //printar ut alla värden ifrån city_array_sorted
+            <div class="city-box"><?php //printar ut alla värden ifrån city_array_sorted i ett eget card
             foreach ($city_array_sorted as $city){?>
-                <p><?= $city;?></p><br>
+                <div class="city-card"><p><?= $city;?></p></div>
                 <?php
             }?>
             </div>
