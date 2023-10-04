@@ -24,7 +24,7 @@
                                 <td><?= $team; ?></td>
                                 <td><?= $data['league']; ?></td>
                                 <td>
-                                    <?php
+                                    <?php //Kollar ifall det finns värde i kategorin 'last time champions' eller omdet är null. Är det null printas 'N/A'
                                     if ($data['last-time-champions'] !== null) {
                                         echo $data['last-time-champions'];
                                     } else {
@@ -32,7 +32,7 @@
                                     } ?></td>
                                 <td><?= $data['city']; ?></td>
                                 <td>
-                                    <?php
+                                    <?php // kollar om det finns en kategori 'nickname' finns det inte det så printas 'n/a' annars printas nicknamet
                                     if (isset($data['nickname'])) {
                                         echo $data['nickname'];
                                     } else {
@@ -70,57 +70,6 @@ foreach ($teams as $key => $value) {?>
     }
 }?>
 </table>
-
-*/
-
-
-/*funkar, men inte 'nickname'
-<div class="container">
-            <div class="table-container">
-                <div class="table-item table-header">
-                    <h1>The Teams:</h1>
-                </div>
-                <div class="table-item table-data">
-                    <table>
-                        <thead>
-                            <tr><th>TEAMS</th><?php
-                                foreach ( $teams as $key => $value):?>
-                                <th><?= $key?></th>
-                                <?php endforeach;?>
-                            </tr>
-                        </thead>
-                        <tr><th>LEAGUE</th><?php
-                            foreach ( $teams as $key => $value):?>
-                            <td><?= $value['league']?></td>
-                            <?php endforeach;?>
-                        </tr>
-                        <tr><th>Last time champion</th><?php
-                            foreach ( $teams as $key => $value):?>
-                            <td><?php if ($value['last-time-champions'] !== null) echo $value['last-time-champions']; else echo "N/A"?></td>
-                            <?php endforeach;?>
-                        </tr>
-                        <tr><tr><th>ORIGIN</th><?php
-                            foreach ( $teams as $key => $value):?>
-                            <td><?= $value['city']?></td>
-                            <?php endforeach;?>
-                        </tr>
-                        <tr><th>NICKNAME</th><?php
-                            foreach ( $teams as $key => $value):?>
-                            <td><?php if ($data['last-time-champions'] !== null){
-                                echo $data['last-time-champions']; } 
-                                else {
-                                echo 'N/A'; $value['nickname']?>"><?= $key?></td>
-                            <?php endforeach;?>
-                        </tr>
-                        <tr><th>WEBSITE</th><?php
-                            foreach ( $teams as $key => $value):?>
-                            <td><a href="<?= $value['url']?>"><?= $key?></a></td>
-                            <?php endforeach;?>
-                        </tr>
-                    </table>
-                </div>
-            </div>            
-        </div>
 
 */
 ?>
