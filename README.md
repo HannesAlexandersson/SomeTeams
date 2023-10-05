@@ -1,13 +1,20 @@
 # SomeTeams
 PHP assignment. We are to build a simple website using an array of english football teams and some associated data. The assigment consists of
 approximately 7 steps: 
-We are to have 1 file echo out the total number of teams in the array wich are seven. I choose to have mine file echo out this number in the middle of an sentence wich itself are hidden in one of the subpages. 
 
-We where also tasked with building an table with all of the data in the array. I chosed to code my array using multiple of foreach loops ( one for every row of the table.) I did at first make it with an nested foreach loop wich worked just fine. But the problem was that with the nested version
-it looked much worse. The data was there and it was in form of an table, but as I couldnt separete the subkeys properly I hade to echo out the subkey and the subvalue in each datacell(I.E 'last-time champion = 'N/A' etc). So I went with the less "smarter" codewise solution in favor for estetic.(But the nested foreachloop exists in the file in a commented out existens)
+For me the assignment was more about the website then about the table. I know alot of my classmates was worried about the table but that was the first thing I did since I knew that it would probably be the trickiest thing in this assignment. 
 
-We where also tasked to have one file display all the unique values in the 'city' subkey. So I made a subpage for the website that did exactly that.
+## The website
+I separeted the head, header, navbar and the footer in seperate files. 
+Since I built my website containing 4 different pages ( 1 homepage, 1 infopage, 1 page with the table, 1 hidden infopage) I decided that the constant elements of the pages could be in seperate files and 'require' them. 
 
-As the assigment was about footballteams I decided to make the website with the colourscheme of my own favorite footballteam from sweden. I also included the clublogo and a link to their supporter website. I made the mainpage out of a flexbox containing all the clublogos of the teams in the array.
+Since all the pages of the website shared the same head, header navbar and footer, I put the 'require' for the datafile containing the array in the head so that all files that needed it would have acces to it. 
 
-So for conclusion, The webpage that I have built does firstly present all the teams from Hans array as cards with links to each teams homepage. Secondly it present all the data from the array in an nice table. Thirdly it echo out in an hidden string the number of teams in the array, and fourth it presents all the unique data from the city category.
+I had an index file for the 'home' page. the 'home' page contains of seven flex cards with each team of the array in an own card. each card also serves as an link to that teams offical website. 
+
+In the navbar we have 3 choices: Home, about and statistic. The home page we have already covered. The about page contains of information about the Premier League ( the offical english national league). It also have an hidden link to an hidden page. 
+
+The hidden page contains of the unique city values of the array presented on seperate flexcards built out of an foreachloop.
+
+The statistic link on the navbar leads to the table. An table built out of an foreachloop that presents all the data from the array in an nice table. 
+
