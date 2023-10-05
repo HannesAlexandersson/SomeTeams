@@ -1,28 +1,9 @@
-<?php __DIR__ . require 'data.php';
+<!-- The hidden subpages 'index file'. it contains the unique city values of the data-array aswell as some info about wich team plays in wich city -->
+<?php 
+__DIR__ . require 'data.php';
 __DIR__ . require 'head.php';
 __DIR__ . require 'header.php';
-__DIR__ . require 'citydata.php'; ?>
-<main>
-    <div class="container">
-        <div class="city-container">
-            <div class="Info-box">
-            <p>In the array there are 7 teams from 5 different citys</p>
-            <p>The different citys are:</p>
-            </div>
-            <div class="city-box"><?php //printar ut alla värden ifrån city_array_sorted i ett eget card
-            foreach ($city_array_sorted as $city){?>
-                <div class="city-card"><p><?= $city;?></p></div>
-                <?php
-            }?>
-            </div>
-            <p><u>And:</u></p>
-            <?php        // printar lagens namn och stad
-            foreach ($teams as $key => $value) {?>
-                <p class="city-item"><?= $citys[$i] . " is the city of " . $key ?></p><br><?php $i++ ;
-                }
-            ?>
-        </div>
-    </div>
-</main>
-<?php __DIR__. require 'navbar.php';?>            
-<?php __DIR__ . require 'footer.php'; ?>
+__DIR__ . require 'logic.php'; 
+__DIR__ . require 'city-values-main.php';
+__DIR__ . require 'navbar.php';         
+__DIR__ . require 'footer.php'; 

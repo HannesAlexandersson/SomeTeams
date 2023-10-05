@@ -1,3 +1,5 @@
+<!-- The Index file. Its the Homepage of the website -->
+
 <?php __DIR__. require 'head.php';?>
 
 <?php __DIR__. require 'header.php';?>

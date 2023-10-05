@@ -1,3 +1,4 @@
+        <!-- The footer, its the same for all the pages of the website, so they all require in this file -->
         <footer>
             <div class="footer-container">            
                 <h3>Social Media:</h3>

@@ -1,3 +1,4 @@
+<!-- The navbar, its the same for all the pages of the website, so they all require in this file -->
 <div class="nav-container">
     <nav class="nav-item">
         <a class="nav-sideway-box" href="index.php"><img class="table-icon" src="assets/home.svg"/><p class="nav-p" style="display:inline;">Home</p></a>

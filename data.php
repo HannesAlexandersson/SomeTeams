@@ -1,5 +1,5 @@
 <?php
-
+#Contains the data-array we where provided with. (best not tamper with!)
 $teams = [
     'Arsenal' => [
         'league' => 'Premier league',

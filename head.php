@@ -1,3 +1,4 @@
+<!-- The head, its the same for all the pages of the website, so they all require in this file -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,6 +12,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700;800&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <?php __DIR__. require 'data.php'; ?>
+        <?php __DIR__. require 'data.php'; ?><!-- Since all the pages of the website require in the head this is the only place that need to require the data.php -->
     </head> 
     <body>

@@ -1,3 +1,4 @@
+ <!-- The header, its the same for all the pages of the website, so they all require in this file -->
  <header>
     <div class="header-container">
         <div class="header-item">
