@@ -23,7 +23,7 @@
                                 <td><?= $team; ?></td>
                                 <td><?= $data['league']; ?></td>
                                 <td>
-                                    <?php //Kollar ifall det finns värde i kategorin 'last time champions' eller omdet är null. Är det null printas 'N/A'
+                                    <?php //checks if their is value in the 'last-time-champions' key, if its null it prints 'N/A'
                                     if ($data['last-time-champions'] !== null) {
                                         echo $data['last-time-champions'];
                                     } else {
@@ -31,7 +31,7 @@
                                     } ?></td>
                                 <td><?= $data['city']; ?></td>
                                 <td>
-                                    <?php // kollar om det finns en kategori 'nickname' finns det inte det så printas 'n/a' annars printas nicknamet
+                                    <?php // checks if 'nickname' exists, if not then it prints 'n/a' else prints nicknamet
                                     if (isset($data['nickname'])) {
                                         echo $data['nickname'];
                                     } else {

@@ -249,6 +249,7 @@ h1 {
   color: var(--selective-yellow);
 }
 h3 {
+  color: var(--selective-yellow);
   font-size: xx-large;
 }
 .about > p {

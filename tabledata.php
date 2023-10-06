@@ -1,4 +1,4 @@
-<!-- The table pages 'index file', -->
+<!-- The table page's 'index file', -->
 <?php
 __DIR__ . require 'head.php';
 __DIR__ . require 'header.php';
